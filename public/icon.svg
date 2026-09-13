@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff416c"/>
+      <stop offset="50%" stop-color="#f5af19"/>
+      <stop offset="100%" stop-color="#38ef7d"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1b0"/>
+      <stop offset="50%" stop-color="#fbd786"/>
+      <stop offset="100%" stop-color="#f7797d"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <!-- Inner Glass Card -->
+  <rect x="40" y="40" width="432" height="432" rx="84" fill="#ffffff" fill-opacity="0.88" stroke="#fbd786" stroke-width="8" filter="url(#shadow)"/>
+  
+  <!-- Crown / VIP Motif -->
+  <g transform="translate(136, 120)">
+    <!-- Crown -->
+    <path d="M 20 160 L 50 40 L 120 110 L 190 40 L 220 160 Z" fill="url(#goldGrad)" stroke="#d97706" stroke-width="6" stroke-linejoin="round"/>
+    <circle cx="50" cy="35" r="14" fill="#fbd786" stroke="#d97706" stroke-width="4"/>
+    <circle cx="120" cy="105" r="14" fill="#fbd786" stroke="#d97706" stroke-width="4"/>
+    <circle cx="190" cy="35" r="14" fill="#fbd786" stroke="#d97706" stroke-width="4"/>
+    <!-- Base band -->
+    <rect x="18" y="160" width="204" height="28" rx="8" fill="#d97706"/>
+    <circle cx="60" cy="174" r="6" fill="#fff"/>
+    <circle cx="120" cy="174" r="6" fill="#fff"/>
+    <circle cx="180" cy="174" r="6" fill="#fff"/>
+  </g>
+
+  <!-- VIP Text -->
+  <text x="256" y="380" font-family="'Kantumruy Pro', 'Arial Black', sans-serif" font-weight="900" font-size="76" fill="#d32f2f" text-anchor="middle" letter-spacing="4">
+    VIP
+  </text>
+  <text x="256" y="425" font-family="'Kantumruy Pro', sans-serif" font-weight="700" font-size="28" fill="#4b5563" text-anchor="middle">
+    KMR77 NOTICE
+  </text>
+</svg>

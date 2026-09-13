@@ -1,0 +1,6 @@
+{
+  "name": "VIP Notification",
+  "description": "VIP notification card in Khmer alerting users about KMR77 service update, balance withdrawal, and transition to PPH855 & AFU855, with Android WebAPK and installable PWA support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
